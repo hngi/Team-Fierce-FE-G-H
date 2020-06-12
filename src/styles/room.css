@@ -88,10 +88,6 @@ span{
     left: 50%;
     width: 514px;
     transform: translate(-50%, -50%);
-    background-color: darkgoldenrod;
-  
-    
-    
 }
 .container{
     position: relative;
