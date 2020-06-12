@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100% !important;
+    overflow-x: hidden;
+}
+
+.text {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 38px;
+    font-weight: normal;
+}
+
+/* HEADER START  */
+.head {
+    background: url(../images/rooms/rooms.png) center center/cover no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.myImg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(40, 38, 38, 0.85) 2.61%, rgba(34, 43, 72, 0.72) 10.55%, rgba(28, 48, 105, 0.57) 16.97%, rgba(6, 21, 59, 0.34) 38.37%, rgba(6, 21, 59, 0.34) 42.54%, rgba(6, 21, 59, 0.34) 47.35%, rgba(6, 21, 59, 0.34) 52.57%);
+    z-index: 1;
+    content: '';
+    top: 0;
+    left: 0;
+    margin-bottom: 30px;
+}
+
+.head .text h3 {
+    font-size: 55px;
+}
+
+.head .text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.img-nav {
+    position: absolute;
+    bottom: 0;
+    left: -0.1%;
+    background-color: #ffffff52;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lil-img {
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+
+}
+/*rooms*/
+.rooms{
+    position: relative;
+    text-align: left;
+    width: 521px;
+    margin-left: 5%;
+
+   
+}
+span{
+    font-size: 22px;
+    font-weight: bold;
+}
+.contents {
+    position: absolute;
+    background-color: rgba(15, 95, 92, 0.2);
+    color: white;
+    text-align: right;
+    top: 40%;
+    left: 50%;
+    width: 514px;
+    transform: translate(-50%, -50%);
+    background-color: darkgoldenrod;
+  
+    
+    
+}
+.container{
+    position: relative;
+    background: darkgreen;
+   
+}
+.ratings{
+    position: absolute;
+    bottom: 15%;
+    right: 15px;
+    color: white;
+    margin-bottom: 7%;
+}
+.features{
+    position: absolute;
+    top: 6px;
+    right: 5%;
+    color: #072522;
+    text-align: right;
+
+}
+.button{
+    position: absolute;
+    bottom: 80px;
+    right: 4%;
+ 
+    
+}
+.button button{
+    background: #00a799;
+    text-align: justify;
+    color: white;
+    margin: auto;
+    width: 219px;
+    height: 48px;
+    margin-top: 5%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.room1{
+    position: relative;
+    margin-top: -5%;
+    margin-left: 57%;
+    text-align: right;
+    width: 521px;
+
+}
+.content1{
+    position: absolute;
+    background-color: rgba(15, 95, 92, 0.2);
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 515px;
+    text-align: left;
+}
+.ratings1{
+    position: absolute;
+    bottom: 8px;
+    
+    color: white;
+    margin-bottom: 7%;
+    text-align: left;
+}
+.features1{
+    position: absolute;
+    top: 6px;
+    left: 5%;
+    color: #072522;
+    text-align: right;
+    text-align: left;
+}
+.button1{
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+}
+.button1 button{
+    background: #00a799;
+    text-align: justify;
+    color: white;
+    margin: auto;
+    width: 219px;
+    height: 48px;
+    margin-top: 5%;
+    margin-top: 3%;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+
+}
+@media only screen and (max-width: 1024px){
+    body{
+        width: 100% !important;
+    }
+    .rooms{
+        margin-left: -5%;
+    }
+    .features1{
+        margin-left: -5%;
+    }
+    .button1{
+        margin-left: -5%;
+    }
+    .room1{
+        margin-left: 45%;
+    }
+    .features{
+        position: absolute;
+        margin-left: 25%;
+    }
+    .button{
+        right: 5%;
+    }
+    .features1{
+        right: 1%;
+    }
+}
+@media only screen and (max-width: 947px){
+    .image{
+      
+        width: 450px;
+    }
+    .room1{
+        margin-top: -5%;
+        margin-left: 40%;
+    }
+    .content1{
+        background-color: fuchsia;
+        width: 447px;
+        left: 57%;
+    }
+    .ratings1{
+        background-color: goldenrod;
+        left: 15%;
+    }
+    .contents{
+        width: 480px;
+        background-color: hotpink;
+        left: 40%;
+    }
+    .ratings{
+        right: 15%;
+    }
+    .features1{
+        background-color: hotpink;
+        top: 1px;
+    }
+    .button1{
+        bottom: 8%;
+        background-color: indigo;
+    }
+}   
