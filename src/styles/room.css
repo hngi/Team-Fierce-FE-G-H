@@ -639,12 +639,10 @@ span{
     }
     .features{
         right: 1%;
-        background-color: slategrey;
         width: 150px;
         top: 1px;
     }
     .features1{
-        background-color: mediumvioletred;
         width: 150px;
         left: 56%;
     }
