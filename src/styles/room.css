@@ -3,7 +3,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     width: 100% !important;
-    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .text {
@@ -93,7 +93,8 @@ span{
     position: relative;
     margin-left: 5%;
     margin-right: 5%;
-    background-color: cornflowerblue;
+    margin-top: 5%;
+    margin-bottom: 5%;
    
 }
 .ratings{
@@ -114,7 +115,7 @@ span{
 }
 .button{
     position: absolute;
-    bottom: 80px;
+    bottom: 6px;
     right: 1%;
  
     
@@ -136,7 +137,7 @@ span{
 }
 .room1{
     position: relative;
-    margin-top: -5%;
+    margin-top: 5%;
     margin-left: 57%;
     text-align: right;
     width: 521px;
@@ -171,7 +172,7 @@ span{
 }
 .button1{
     position: absolute;
-    bottom: 60px;
+    bottom: 6px;
     left: 0.7%;
 }
 .button1 button{
@@ -197,23 +198,13 @@ span{
     .room1{
         margin-left: 55%;
     }
-   
-    .container{
-        background-color: coral;
-    }
 }
 @media only screen and (max-width:1311px){
-    .container{
-        background-color: fuchsia;
-    }
     .room1{
         margin-left: 53%;
     }
 }
 @media only screen and (max-width: 1210px){
-    .container{
-        background-color: gold;
-    }
     .room1{
         margin-left: 48%;
     }
@@ -229,8 +220,30 @@ span{
     }
 }
 @media only screen and (max-width: 1000px){
+    .container{
+        margin-left: 1%;
+        margin-right: 3%;
+    }
     .room1{
-        margin-left: 35%;
+        margin-left: 40%;
+       
+    }
+    .image{
+        width: 500px;
+    }
+    .image1{
+        width: 500px;
+    }
+    .contents{
+        left: 47%;
+        width: 499px;
+    }
+    .content1{
+        left: 53%;
+        width: 499px;
+    }
+    .ratings1{
+        left: 20px;
     }
 }
 @media only screen and (max-width: 900px){
@@ -247,6 +260,9 @@ span{
     .button1 button{
         width: 200px;
     }
+    .button1{
+        bottom: 6px;
+    }
 }
 @media only screen and (max-width: 830px){
     .container{
@@ -254,7 +270,7 @@ span{
         margin-right: 1%;
     } 
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     .image{
         width: 65%;
         margin-bottom: 5%;
@@ -262,12 +278,15 @@ span{
     .image1{
         width: 65% !important;
     }
+    .room1{
+        margin-top: 3%;
+    }
     .features1{
      
-        text-align: justify;
+        text-align: left;
         font-size: 16px;
         top: 1px;
-        margin-left: 48%;
+        left: 50%;
   
     }
     .features{
@@ -306,6 +325,328 @@ span{
     .button button{
         width: 150px;
     }
+    .button1 button img{
+        display: none;
+    }
+    .button button img{
+        display: none;
+    }
 }
 
+@media only screen and (max-width: 768px){
+    .text{
+        display: none;
+    }
+    .image{
+        width: 65%;
+        margin-bottom: 5%;
+    }
+    .image1{
+        width: 65% !important;
+    }
+    .room1{
+        margin-top: 3%;
+    }
+    .features1{
+     
+        text-align: left;
+        font-size: 16px;
+        top: 1px;
+        left: 55%;
+  
+    }
+    .features{
+        text-align: left;
+        font-size: 16px;
+        right: 17%;
+    }
+    .contents{
+        display: none;
+    }
+    .ratings{
+        display: none;
+    }
+    .content1{
+        display: none;
+    }
+    .ratings1{
+        display: none;
+    }
+   
+    .room1{
+        position: relative;
+        text-align: left;
+        width: 521px;
+        margin-left: 1%;
+    }
+    .button1 button{
+        width: 150px;
+        margin-top: -3%;
+    }
+    .button1{
+        margin-left: 79% ;   position: absolute;
+        bottom: 80px;
+        right: 1%;
+    }
+    .button button{
+        width: 150px;
+    }
+    .button1 button img{
+        display: none;
+    }
+    .button button img{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .text{
+        display: none;
+    }
+    .image{
+        width: 65%;
+        margin-bottom: 5%;
+    }
+    .image1{
+        width: 65% !important;
+    }
+    .room1{
+        margin-top: 3%;
+    }
+    .features1{
+     
+        text-align: left;
+        font-size: 16px;
+        top: 1px;
+        left: 63%;
+  
+    }
+    .features{
+        text-align: left;
+        font-size: 16px;
+        right: 7%;
+    }
+    .contents{
+        display: none;
+    }
+    .ratings{
+        display: none;
+    }
+    .content1{
+        display: none;
+    }
+    .ratings1{
+        display: none;
+    }
+   
+    .room1{
+        position: relative;
+        text-align: left;
+        width: 521px;
+        margin-left: 1%;
+    }
+    .button1 button{
+        width: 130px;
+    
+    }
+    .button1{
+        margin-left: 79% ;   position: absolute;
+        bottom: 15px;
+        right: 1%;
+    }
+    .button button{
+        width: 130px;
+    }
+    .button1 button img{
+        display: none;
+    }
+    .button button img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 650px){
+    .text{
+        display: none;
+    }
+    .image{
+        width: 65%;
+        margin-bottom: 5%;
+    }
+    .image1{
+        width: 65% !important;
+    }
+    .room1{
+        margin-top: 3%;
+    }
+    .features1{
+     
+        text-align: left;
+        font-size: 16px;
+        top: 1px;
+        left: 60%;
+  
+    }
+    .features{
+        text-align: left;
+        font-size: 16px;
+        right:7%;
+        top: 1px;
+    }
+    .contents{
+        display: none;
+    }
+    .ratings{
+        display: none;
+    }
+    .content1{
+        display: none;
+    }
+    .ratings1{
+        display: none;
+    }
+   
+    .room1{
+        position: relative;
+        text-align: left;
+        width: 521px;
+        margin-left: 1%;
+    }
+    .button1 button{
+        width: 130px;
+    
+    }
+    .button1{
+        margin-left: 79% ;   position: absolute;
+        bottom: 15px;
+        right: 2%;
+    }
+    .button button{
+        width: 130px;
+    }
+    .button1 button img{
+        display: none;
+    }
+    .button button img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 620px){
+    .text{
+        display: none;
+    }
+    .image{
+        width: 50%;
+        margin-bottom: 5%;
+    }
+    .image1{
+        width: 50% !important;
+    }
+    .room1{
+        margin-top: 3%;
+    }
+    .features1{
+     
+        text-align: left;
+        font-size: 16px;
+        top: 1px;
+        left: 63%;
+  
+    }
+    .features{
+        text-align: left;
+        font-size: 16px;
+        right: 7%;
+    }
+    .contents{
+        display: none;
+    }
+    .ratings{
+        display: none;
+    }
+    .content1{
+        display: none;
+    }
+    .ratings1{
+        display: none;
+    }
+   
+    .room1{
+        position: relative;
+        text-align: left;
+        width: 521px;
+        margin-left: 1%;
+    }
+    .button1 button{
+        width: 130px;
+    
+    }
+    .button1{
+        margin-left: 79% ;   position: absolute;
+        bottom: 15px;
+        right: 1%;
+    }
+    .button button{
+        width: 130px;
+    }
+    .button1 button img{
+        display: none;
+    }
+    .button button img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 500px){
+    .image{
+        width: 30%;
+    }
+    .image1{
+        width: 30% !important;
+    }
+    .features{
+        line-height: 15px;
+        right: 5%;
+        font-size: 10px;
+    }
+    .features1{
+        line-height: 15px;
+        left: 50%;
+        font-size: 10px;
+    }
+    .button1 button{
+        position: absolute ;
+        width: 100px;
+        font-size: 16px;
+        
+    }
+    .button1{
+        display: none;
+    }
+    .room1{
+        margin-bottom: 3%;
+    }
+    .button{
+        display: none;
+    }
+    .lil-img img {
+        justify-content: space-around;
+        width: 100px;
+        height: 70px;
+    }
+}
+@media only screen and (max-width: 400px){
+    .container{
+        width: 100%;
+    }
+    .features{
+        right: 1%;
+        background-color: slategrey;
+        width: 150px;
+        top: 1px;
+    }
+    .features1{
+        background-color: mediumvioletred;
+        width: 150px;
+        left: 56%;
+    }
+}
 
